@@ -5,11 +5,11 @@ const Footer = () => {
     <footer className="site-footer">
       <div className="footer-top">
         <div className="subscribe">
-          <h4>Be the first to know</h4>
+          <h4 >Be the first to know</h4>
           <p>Sign up for updates from mettā muse.</p>
           <div className="subscribe-row">
             <input type="email" placeholder="Enter your e-mail..." />
-            <button>Subscribe</button>
+            <button className="subscribeBtn">Subscribe</button>
           </div>
         </div>
 
@@ -19,6 +19,7 @@ const Footer = () => {
           <p className="">customercare@mettamuse.com</p>
           <h5 className="">Currency</h5>
           <div className="currency"><img className="flagImage" src="assets/United States of America (US).png"/> USD</div>
+        <p>Transactions will be completed in Euros and a currency reference is available on hover.</p>
         </div>
       </div>
 
@@ -58,12 +59,12 @@ const Footer = () => {
 
           <h4>mettā muse Accepts</h4>
           <div className="payments">
-            <div className="pay"><img src="assets/googlePay.png" width={60}/></div>
-            <div className="pay"><img src="assets/mastercard.png"  width={60}/></div>
-            <div className="pay"><img src="assets/paypal.png"  width={60}/></div>
-             <div className="pay"><img src="assets/amex.png"  width={60}/></div>
-            <div className="pay"><img src="assets/applePay.png"  width={60}/></div>
-            <div className="pay"><img src="assets/pay.png"  width={60}/></div>
+            <div className="pay"><img src="assets/googlePay.png" width={50}/></div>
+            <div className="pay"><img src="assets/mastercard.png"  width={50}/></div>
+            <div className="pay"><img src="assets/paypal.png"  width={50}/></div>
+             <div className="pay"><img src="assets/amex.png"  width={50}/></div>
+            <div className="pay"><img src="assets/applePay.png"  width={50}/></div>
+            <div className="pay"><img src="assets/pay.png"  width={50}/></div>
           </div>
         </div>
       </div>
